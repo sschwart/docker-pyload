@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y python \
 	git \
 	rhino \
 	gosu \
+	sshpass \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
 	&& pip install Send2Trash
